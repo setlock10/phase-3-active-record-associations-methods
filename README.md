@@ -196,7 +196,7 @@ end
 Recall that using `has_many :songs` creates an instance method `#songs` that we
 can call on any instance of an artist.
 
-Calling this method now will return an array of the artist's songs. Since our
+Calling this methmjod now will return an array of the artist's songs. Since our
 method is specifically looking for the first song, we just have to chain on a
 `#first`.
 
